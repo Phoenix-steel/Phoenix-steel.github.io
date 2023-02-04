@@ -35,7 +35,7 @@
         <section class="ftco-fixed clearfix">
             <div class="image js-fullheight float-left">
                 
-                <div class="home-slider owl-carousel js-fullheight">
+                <div class="home-slider owl-carousel js-fullheight" style="background-color: black;">
                     <div class="slider-item js-fullheight"
                         style="background-image: url('imagesRamita/1797610_764445150301186_2257306337241148917_n.jpg');">
                         <div class="overlay"></div>
@@ -96,7 +96,7 @@
                     </div>
 
                     <div class="slider-item js-fullheight"
-                        style="background-image: url('imagesRamita/20230127_153330.jpg');">
+                        style="background-image: url('imagesRamita/20230127_153330\ -\ Copy.jpg')">
                         <div class="overlay"></div>
                         <div class="container">
                             <div class="row slider-text align-items-end" data-scrollax-parent="true">
@@ -107,7 +107,7 @@
                         </div>
                     </div>
 
-                    <div class="slider-item js-fullheight" style="background-image: url('imagesRamita/WhatsApp\ Image\ 2023-02-03\ at\ 15.53.12\ \(2\).jpeg');">
+                    <div class="slider-item js-fullheight" style="background-image: url('imagesRamita/WhatsApp\ Image\ 2023-02-03\ at\ 15.53.12\ \(2\) - Copy.jpeg');">
                         <div class="overlay"></div>
                         <div class="container">
                             <div class="row slider-text align-items-end" data-scrollax-parent="true">
@@ -125,9 +125,8 @@
                         <center>
                             <h3 class="heading"><span>My Deepest Secret and Everlasting Love</h3>
                             <h2 class="heading">Ramita</h2></span>
-                            <audio hidden autoplay>
+                            <audio id="music" controls autoplay>
                                 <source src="music/Tu_Jaane_Na.mp3" type="audio/mpeg">
-                                Your browser does not support the audio element.
                             </audio>
                         </center>
                     </div>
@@ -417,44 +416,14 @@
     <script src="js/scrollax.min.js"></script>
     <script src="js/bootstrap-datepicker.js"></script>
     <script src="js/jquery.timepicker.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
     <script src="js/google-map.js"></script>
     <script src="js/main.js"></script>
-
-</body>
-
-ript>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-ript>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
-ript>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script src="js/jquery.timepicker.min.js"></script>
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-    <script src="js/google-map.js"></script>
-    <script src="js/main.js"></script>
-
+    <script>
+        $(document).ready(function(){
+            $("#music").get(0).play();
+        });
+    </script>
 </body>
 
 </html>
